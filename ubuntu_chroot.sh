@@ -2,8 +2,8 @@
 
 useradd -G sudo -m -s /bin/bash fpga
 echo fpga:fpga | chpasswd
-apt update 
-apt -y upgrade 
+apt update
+apt -y upgrade
 apt -y install locales tzdata \
   dialog perl \
   sudo ifupdown net-tools ethtool udev iputils-ping resolvconf wget apt-utils man devmem2 vim zsh \

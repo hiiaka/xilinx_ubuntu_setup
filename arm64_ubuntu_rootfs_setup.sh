@@ -9,9 +9,9 @@ sudo mount ${MNTDEV} ${MNTDIR}
 cd ${MNTDIR}
 echo ${UHOME}
 sudo cp ${UHOME}/ubuntu_chroot.sh .
-sudo wget http://cdimage.ubuntu.com/ubuntu-base/releases/18.04/release/ubuntu-base-18.04.5-base-arm64.tar.gz
-sudo tar xf ubuntu-base-18.04.5-base-arm64.tar.gz
-sudo rm ubuntu-base-18.04.5-base-arm64.tar.gz
+sudo wget http://cdimage.ubuntu.com/ubuntu-base/releases/20.04/release/ubuntu-base-20.04.2-base-arm64.tar.gz
+sudo tar xf ubuntu-base-20.04.2-base-arm64.tar.gz
+sudo rm ubuntu-base-20.04.2-base-arm64.tar.gz
 sudo sync
 cd ${UHOME}
 
